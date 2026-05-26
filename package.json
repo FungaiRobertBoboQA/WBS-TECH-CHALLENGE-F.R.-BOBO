@@ -1,0 +1,38 @@
+{
+  "name": "wbs-tech-challenge-f.r.-bobo",
+  "version": "1.0.0",
+  "description": "WBS QA Automation Technical Challenge using Playwright and TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FungaiRobertBoboQA/WBS-TECH-CHALLENGE-F.R.-BOBO.git"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "automation",
+    "qa",
+    "testing",
+    "e2e"
+  ],
+  "author": "Fungai Robert Bobo",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/FungaiRobertBoboQA/WBS-TECH-CHALLENGE-F.R.-BOBO/issues"
+  },
+  "homepage": "https://github.com/FungaiRobertBoboQA/WBS-TECH-CHALLENGE-F.R.-BOBO#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
